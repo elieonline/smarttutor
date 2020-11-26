@@ -15,6 +15,14 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <form  method="POST" action="{{ route('logout') }}">
+                        @csrf
+                            <a  class="dropdown-item effect waves-light" href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                                    this.closest('form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+                    </form>
                 </div>
             </div>
         </div>
