@@ -27,10 +27,6 @@
   </style>
 @endsection
 
-@section('header')
-  @include('layouts.header')
-@endsection
-
 @section('content')
     <!-- Intro Section -->
     <section class="view intro-2">

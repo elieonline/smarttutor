@@ -42,10 +42,6 @@
   </style>
 @endsection
 
-@section('header')
-  @include('layouts.header')
-@endsection
-
 @section('content')
     <!-- Intro Section -->
     <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
